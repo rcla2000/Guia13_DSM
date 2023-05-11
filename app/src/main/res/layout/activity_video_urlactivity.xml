@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".VideoURLActivity"
+    android:orientation="vertical">
+   <TextView
+       android:layout_marginTop="10dp"
+       android:text="@string/txturlvideo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="17dp" />
+    <EditText
+        android:id="@+id/edtUrlVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnCargarVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnvideo"
+        android:layout_marginBottom="20dp"/>
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:visibility="visible" />
+</LinearLayout>
